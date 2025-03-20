@@ -12,7 +12,7 @@ namespace Benchmark.MedianStdVsnugetMath
         {
             Console.WriteLine("Gerando números aleatórios entre 0 e 1...");
             Random random = new Random();
-            for (int i = 0; i < 500; i++)
+            for (int i = 0; i < 500000; i++)
             {
                 amostrasVerificacao.Add(random.NextDouble());
             }
