@@ -10,9 +10,9 @@ namespace Benchmark.MedianStdVsnugetMath
         private static List<double> amostrasVerificacao = new List<double>();
         static void Main(string[] args)
         {
-            Console.WriteLine("Gerando 10.000 números aleatórios entre 0 e 1...");
+            Console.WriteLine("Gerando números aleatórios entre 0 e 1...");
             Random random = new Random();
-            for (int i = 0; i < 500000; i++)
+            for (int i = 0; i < 500; i++)
             {
                 amostrasVerificacao.Add(random.NextDouble());
             }
