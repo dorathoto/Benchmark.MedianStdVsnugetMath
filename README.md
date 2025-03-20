@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este projeto console em C# .NET 8 tem como objetivo comparar a performance do cálculo da mediana e do desvio padrão implementados manualmente com a performance da biblioteca Math.NET Numerics (versão mais recente disponível no NuGet=5).
+Este projeto console em C# .NET 8 tem como objetivo comparar a performance do cálculo da mediana e do desvio padrão implementados manualmente com a performance da biblioteca Math.NET Numerics (https://numerics.mathdotnet.com/) (versão mais recente disponível no NuGet=5).
 
 O objetivo principal é analisar se a biblioteca otimizada Math.NET Numerics oferece ganhos significativos de performance em relação a uma implementação básica para um conjunto de dados de tamanho razoável (10.000 amostras neste caso).
 
